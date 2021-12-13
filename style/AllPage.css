@@ -1,0 +1,38 @@
+body {
+  background-color: none;
+}
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: #ebeff5;
+  }
+}
+
+h3, h4{
+	text-align: center;
+	color: #63625d;
+	font-family: monospace;
+}
+
+h2{
+	text-align: center;
+	color: #63625d;
+	font-family: monospace;
+	text-decoration: underline overline;
+}
+
+a{
+	text-decoration: none;
+	color: #63625d;
+}
+
+a:hover {
+	text-decoration: none;
+	color: pink;
+}
+
+
+
+
+
+

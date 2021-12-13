@@ -1,0 +1,43 @@
+$Default_color: #63625d;
+$Default_font: monospace;
+$Defaul_align: center;
+
+body {
+  background-color: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #ebeff5;
+  }
+
+h3, h4{
+	text-align: center;
+	color: $Default_color;
+	font-family: $Default_font;
+}
+
+h2{
+	@extent h3;
+	text-decoration: underline overline;
+}
+
+a{
+	text-decoration: none;
+	color: $Default_color;
+}
+
+a:hover {
+	text-decoration: none;
+	color: pink;
+}
+
+table{
+	th{
+		text-align: $Defaul_align
+		font-family: $Default_font;
+	}
+
+	td{
+		font-family: $Default_font;;
+	}
